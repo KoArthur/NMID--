@@ -189,6 +189,7 @@ git push -u origin branchname
   ```
 
 - emoji
+    
   :smile: :point_up: :jack_o_lantern: :checkered_flag: :stuck_out_tongue: :open_hands:
 
   ```markdown
