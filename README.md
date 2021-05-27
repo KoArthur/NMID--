@@ -244,7 +244,7 @@ git push -u origin branchname
 
   1. 透明蒙版
 
-  2.
+  2. 选区蒙版
 
 #### <font color="#008B8B">visual code</font> 插件
 
