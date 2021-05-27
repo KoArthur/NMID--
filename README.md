@@ -236,15 +236,15 @@ git push -u origin branchname
 
 #### <font color="#9932CC">krita</font> 学习
 
-    ![lena](/img/lena512color.jpg "lena图像")
+   ![lena](/img/lena512color.jpg "lena图像")
     
-    - 快捷键
+   - 快捷键
 
-    - 蒙板功能
+   - 蒙板功能
 
-        1. 透明蒙版
+       1. 透明蒙版
 
-        2. 选区蒙版
+       2. 选区蒙版
 
 #### <font color="#008B8B">visual code</font> 插件
 
