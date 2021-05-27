@@ -1,6 +1,6 @@
 <div style="background-color:#FDF5E6;padding:20px;">
 
-# <font color="#800080">学习收获</font>:closed_book:
+# <font color="#800080">第一次任务学习收获</font>:closed_book:
 
 #### 我的个人[网站](https://devolopcode.github.io):globe_with_meridians:
 
@@ -37,6 +37,8 @@ git push -u origin branchname
 
   ###### 六级标题
   ```
+
+  标题也可以通过在下一行加多个\=或\-来实现
 
 - 文字样式
 
@@ -77,6 +79,8 @@ git push -u origin branchname
   - 内容 2
   - 内容 3
 
+  +和\*(星号)也能实现无序
+
   有序
 
   1. 内容 1
@@ -95,7 +99,7 @@ git push -u origin branchname
      2.
   2. 1.
      2.
-  3. 列表嵌套功能只需要在次级列表前面加三个空格
+  3. 有序列表嵌套功能只需要在次级列表前面加一个空格，无序要换两行，加三个空格
   ```
 
 - 分割线
@@ -107,11 +111,11 @@ git push -u origin branchname
 
   \*\*\*
 
-  三个-或\*（其实是星号），如果上面有内容，一定要隔开一行，不然会被识别为标题
+  三个-或\*（星号），如果上面有内容，一定要隔开一行，不然上边内容会被识别为标题
   ```
 
 - 超链接
-  
+
   这是我的个人[网站](https://devolopcode.github.io)的地址
 
   ```markdown
@@ -135,7 +139,7 @@ git push -u origin branchname
   ````
 
 - 图片
-  
+
   ![这是一个图片](/img/v2-47d2a3e3a7587bbade518e3eea88c9c5_720w.png "太开心")
 
   ```markdown
@@ -172,11 +176,11 @@ git push -u origin branchname
   ```
 
 - 自动转换
-  
+
   可以使用<可识别内容>的语法，通过<>来完成自动转换
-  
+
   <http://baidu.com>
-  
+
   <address@example.com>
 
   ```markdown
@@ -185,23 +189,32 @@ git push -u origin branchname
   ```
 
 - 高亮
-    
+
   ==高亮==
+
+  github 好像不支持高亮......
 
   ```markdown
   ==高亮==
   ```
 
 - emoji
-    
+
   :smile: :point_up: :jack_o_lantern: :checkered_flag: :stuck_out_tongue: :open_hands:
+
+  emoji 表情是通过简单编码来实现的，可以通过这个网站查询<https://www.emojiall.com/zh-hans>
 
   ```markdown
   :smile: :point_up: :jack_o_lantern: :checkered_flag: :stuck_out_tongue: :open_hands:
   ```
 
 - 其他
-    
   markdown 支持 html 标签，设置自定义样式时可以通过 html 标签来实现，markdown 对缩进换行都有严格要求，这样才能实现文档层级要求
+
+#### krita 学习
+
+- 快捷键
+
+- 蒙板功能
 
 </div>
