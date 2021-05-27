@@ -147,7 +147,7 @@ git push -u origin branchname
 
   ````markdown
   ```语言（可以不加）
-
+     不同语言会显示不同颜色
   ```
 
   ```javascript
@@ -155,7 +155,7 @@ git push -u origin branchname
   ```
 
   ```python
-  print("hello world")
+     print("hello world")
   ```
   ````
 
@@ -221,7 +221,7 @@ git push -u origin branchname
   ==高亮==
   ```
 
-- emoji
+- emoji🥰
 
   :smile: :point_up: :jack_o_lantern: :checkered_flag: :stuck_out_tongue: :open_hands:
 
@@ -236,16 +236,102 @@ git push -u origin branchname
 
 #### <font color="#9932CC">krita</font> 学习
 
-   ![lena](/img/lena512color.jpg "lena图像")
-    
-   - 快捷键
+krita 官网：<https://krita.org/zh>
 
-   - 蒙板功能
+![lena](/img/lena512color.jpg "lena图像")
 
-       1. 透明蒙版
+- 快捷键
 
-       2. 选区蒙版
+  - Ctrl\+N：快速新建画板
+
+  - Ctrl\+Shift\+N：快速新建图层
+
+  - Ctrl\+O：打开已有图像
+
+  - Ctrl\+W：关闭当前图像
+
+  - Ctrl\+S：保存当前图像
+
+  - Ctrl\+Shift\+S：另存为
+
+  - Ctrl\+Z：撤销操作
+
+  - Ctrl\+笔尖点击：拾取画布颜色
+
+  - Shift\+笔尖左右拖动：调整笔刷大小
+
+  - 中间键\+笔尖悬空移动：画布视图缩放
+
+  -
+
+- 图层和蒙版
+
+  - 图层
+
+    图层可以让你更好的控制作品的绘制过程，例如，你可以把图层的线稿跟颜色分开画在不同的图层上面，这样就算不小心把颜色画坏了，也不至于连线稿一起毁掉，你可以单独编辑每个图层，还可以为它们添加特殊效果，如图层样式、透明度、滤镜和变形等，Krita 会把上面的这些内容在图层组中进行合成，生成最终的图像。听起来挺厉害，但这也只是 Krita 丰富的图像处理功能的其中一种而已！
+
+  - 蒙版和滤镜
+
+    Krita 支持对图层内容进行非破坏性编辑。非破坏性编辑指的是尽管图层的显示效果发生了改变，但图像的原始数据并没有发生永久改变。Krita 只不过在原始图层上应用了一个实时生效的滤镜或者蒙版来改变图像的显示效果，只需隐藏这些滤镜或者蒙版图层，原始图像即可按原样显示。这在需要反复切换对比前后效果的绘画流程中极为有用。
+
+  - 蒙版分类
+
+    1. 滤镜蒙版
+
+       可以给图片添加各种滤镜，并可以根据需要擦除部分区域的滤镜
+
+    2. 选区蒙版
+
+       配合选择功能创建选区
+
+    3. 变形蒙版
+
+       配合选择工具变形图像
+
+    4. 透明度蒙版
+
+       创建透明效果
+
+    5. 智能填色蒙版
+
+       添加颜色
+
+  - Linux 命令指南
+
+    Krita 是一个原生的 Linux 程序。作为 Linux 程序的传统，它也支持在不打开程序窗口的情况下直接在命令行终端中处理图像。 这项功能原本在 Windows 和 OSX 版本中是被禁用的，但是自 3.3 版起它们也可以使用命令行处理图像了。
+
+    导出指令
+
+    > krita importfilename --export --export-filename exportfilename
 
 #### <font color="#008B8B">visual code</font> 插件
+
+```markdown
+Chinese(Simplified)Language Pack for Visual Studio Code
+Atom One Dark Theme
+Auto Rename Tag
+Beautify
+Bracket Pair Colorizer
+Code alignment
+CSS Peek
+ESLint
+filesize
+IntelliSense for CSS class names in HTML
+JavaScript(ES6)code snippets
+JavaScript Snippets
+macros
+Material Icon Theme
+npm
+npm Intellisense
+Path Intellisense
+PHP DocBlocker
+PHP Intelephense
+PHP IntelliSense
+Prettier-Code formatter
+Sass/Less/Stylus/Pug/Jade/Typescript/Javascript Compile Hero Pro
+Browser Preview
+Color Highlight
+open in browser
+```
 
 </div>
