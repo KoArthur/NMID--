@@ -22,7 +22,7 @@ git push -u origin branchname
 
 #### markdown<font color="#FFA500">指令</font>
 
-- 标题
+- `标题`
 
   ```markdown
   # 一级标题
@@ -52,9 +52,30 @@ git push -u origin branchname
   样式
 
   > 摘要或引用
+  >
+  > > 数据结构
+  > >
+  > > > 树
+  > > >
+  > > > > 二叉树
+  > > > >
+  > > > > > 平衡二叉树
+  > > > > >
+  > > > > > > 满二叉树
 
   ```
   > 摘要或引用
+  >
+  > > 数据结构
+  > >
+  > > > 树
+  > > >
+  > > > > 二叉树
+  > > > >
+  > > > > > 平衡二叉树
+  > > > > >
+  > > > > > > 满二叉树
+  可以通过这种方式嵌套
   ```
 
 - 列表
@@ -138,6 +159,8 @@ git push -u origin branchname
   ```
   ````
 
+  也可以在文字两边各加个\`来`标记`文字
+
 - 图片
 
   ![这是一个图片](/img/v2-47d2a3e3a7587bbade518e3eea88c9c5_720w.png "太开心")
@@ -211,10 +234,18 @@ git push -u origin branchname
 - 其他
   markdown 支持 html 标签，设置自定义样式时可以通过 html 标签来实现，markdown 对缩进换行都有严格要求，这样才能实现文档层级要求
 
-#### krita 学习
+#### <font color="#9932CC">krita</font> 学习
+
+![lena](\img\lena512color.jpg "lena图像")
 
 - 快捷键
 
 - 蒙板功能
+
+  1. 透明蒙版
+
+  2.
+
+#### <font color="#008B8B">visual code</font> 插件
 
 </div>
