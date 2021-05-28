@@ -36,6 +36,10 @@ https: //devolopcode.github.io
   git config --global --unset http.proxy
   ```
 
+- 使用 git 指令的好处
+
+  能够方便修改文件结构
+
 #### markdown <font color="#FFA500">指令</font>
 
 - `标题`
@@ -183,7 +187,13 @@ https: //devolopcode.github.io
 
   ```markdown
   ![图片无法显示时的文字](路径 "鼠标停在图片显示的文字")
+  ```
+
   markdown 无法设置图片大小，如果要设置图片大小用 img 标签
+  相对路径使用/，且最前面也要加/，例如太开心图片的显示
+
+  ```markdown
+  ![这是一个图片](/img/v2-47d2a3e3a7587bbade518e3eea88c9c5_720w.png "太开心")
   ```
 
 - 表格
@@ -242,6 +252,8 @@ https: //devolopcode.github.io
   :smile: :point_up: :jack_o_lantern: :checkered_flag: :stuck_out_tongue: :open_hands:
 
   emoji 表情是通过简单编码来实现的，可以通过这个网站查询<https://www.emojiall.com/zh-hans>
+
+  上面六个表情对应的编码
 
   ```markdown
   :smile: :point_up: :jack_o_lantern: :checkered_flag: :stuck_out_tongue: :open_hands:
@@ -354,7 +366,64 @@ Color Highlight
 open in browser
 ```
 
-#### Linux 指令
+#### <font color="#1E90FF">Linux</font> 指令
+
+- 切换目录
+
+  ```mardown
+   cd 路径
+   如 cd c:\users
+      cd c://users
+      cd users
+      cd /c/users
+  ```
+
+  带有根目录视为绝对路径，否则是相对路径
+
+- 查看目录
+
+  ```markdown
+  ls -al
+  ```
+
+  结果示例
+
+  ```markdown
+  -rw-r--r-- 1 fanli 197121 11018 May 28 23:53 README.md
+  drwxr-xr-x 1 fanli 197121 0 May 28 22:32 img/
+  ```
+
+  最前面的\-代表是文件，d 则代表文件夹，后面的 rwx 分别代表读，写和可执行权限
+
+- 创建文件和文件夹
+
+  ```markdown
+  touch 文件
+  mkdir 目录
+  mkdir -p 多级目录
+  ```
+
+- 删除文件和文件夹
+
+  ```markdown
+  rm 文件
+  rmdir 空目录
+  rm -rf 非空目录 r：删除目录 f：不提示 一定要小心使用
+  ```
+
+- 读写文件
+
+  读文件
+
+  ```markdown
+  cat 文件
+  ```
+
+  写文件
+
+  ```markdown
+  vim 文件
+  ```
 
 </div>
 ````
