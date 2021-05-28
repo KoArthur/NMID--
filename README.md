@@ -30,6 +30,12 @@ https: //devolopcode.github.io
   git push -u origin branchname
   ```
 
+- SLL 问题解决办法
+
+  ```markdown
+  git config --global --unset http.proxy
+  ```
+
 #### markdown <font color="#FFA500">指令</font>
 
 - `标题`
