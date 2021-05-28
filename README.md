@@ -8,19 +8,29 @@
 https: //devolopcode.github.io
 ```
 
-#### 创建新分支<font color="#FFA500">指令</font>
+#### git <font color="#FFA500">指令</font>
 
-```markdown
-echo "# test" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M branchname
-git remote add origin https://github.com/repository/.git
-git push -u origin branchname
-```
+- 创建新分支
 
-#### markdown<font color="#FFA500">指令</font>
+  ```markdown
+  echo "# test" >> README.md
+  git init
+  git add README.md
+  git commit -m "信息"
+  git branch -M branchname
+  git remote add origin https://github.com/repositoryname/.git
+  git push -u origin branchname
+  ```
+
+- 上传项目
+
+  ```markdown
+  git add .
+  git commit -m "信息"
+  git push -u origin branchname
+  ```
+
+#### markdown <font color="#FFA500">指令</font>
 
 - `标题`
 
@@ -38,7 +48,7 @@ git push -u origin branchname
   ###### 六级标题
   ```
 
-  标题也可以通过在下一行加多个\=或\-来实现
+标题也可以通过在下一行加多个\=或\-来实现
 
 - 文字样式
 
@@ -159,7 +169,7 @@ git push -u origin branchname
   ```
   ````
 
-  也可以在文字两边各加个\`来`标记`文字
+也可以在文字两边各加个\`来`标记`文字
 
 - 图片
 
@@ -338,4 +348,7 @@ Color Highlight
 open in browser
 ```
 
+#### Linux 指令
+
 </div>
+````
