@@ -520,12 +520,32 @@ open in browser
 
 #### <font color="#1E90FF">Linux</font> 指令
 
+- 学习书籍
+
+  Linux 就该这么学 pdf<https://www.linuxprobe.com/docs/LinuxProbe.pdf>
+
 - 帮助命令
 
   ```markdown
   指令 --help
   如：cd --help
   不过全是英文......
+  ```
+
+- 日期时间
+
+  ```markdown
+  date #输出日期时间，如 2021 年 05 月 29 日 22:05:35
+  date "+%Y-%m-%d %H:%M:%S" #自定义日期时间格式，如 2021-05-29 22:06:31，+号必须添加，date 还有其他参数：%j 表示一年中的第几天
+  %t 表示跳格
+  date -s "20170901 8:30:00" #设置系统时间
+  ```
+
+- 关机和重启
+
+  ```markdown
+  reboot #重启
+  powerofff #关机
   ```
 
 - 切换目录
