@@ -117,10 +117,35 @@ https: //devolopcode.github.io
 
 - 查看信息
 
-  ```
-  git status #显示所有变更文件
+  ```markdown
+  git status #显示有变更的文件
   git log #显示当前分支的版本历史
-  git log --stat #显示 commit 历史，以及每次
+  git log --stat #显示 commit 历史，以及每次 commit 发生变更的文件
+  git log --follow [file]
+  git whatchanged [file] #显示某个文件的版本历史，包括文件改名
+  git log -p [file] #显示指定文件相关的每一次 diff
+  git blame [file] #显示指定文件是什么人在什么时间修改过
+  git diff #显示暂存区和工作区的差异
+  git diff --cached [] #显示暂存区和上一个 commit 的差异
+  git diff HEAD #显示工作区与当前分支最新 commit 之间的差异
+  git diff [first-branch]...[second-branch] #显示两次提交之间的差异
+  git show [commit]#显示某次提交的元数据和内容变化
+  git show --name-only [commit] #显示某次提交发生变化的文件
+  git show [commit]:[filename] #显示某次提交时，某个文件的内容
+  git reflog #显示当前分支的最近几次提交
+  ```
+
+- 远程同步
+
+  ```markdown
+  git fetch [remote] #下载远程仓库的所有变动
+  git remote -v #显示所有远程仓库
+  git remote show [remote] #显示某个远程仓库的信息
+  git remote add [shortname] [url] #增加一个新的远程仓库，并命名
+  git pull [remote] [branch] #取回远程仓库的变化，并与本地分支合并
+  git push [remote] [branch] #上传本地指定分支到远程仓库
+  git push [remote] --force #强行推送当前分支到远程仓库，即使有冲突
+  git push [remote] --all #推送所有分支到远程仓库
   ```
 
 - SLL
