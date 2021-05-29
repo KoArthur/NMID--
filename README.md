@@ -520,16 +520,38 @@ open in browser
 
 #### <font color="#1E90FF">Linux</font> 指令
 
-- 切换目录
-
-  ```mardown
-   cd 绝对路径或相对路径
-  ```
-
-- 查看目录
+- 帮助命令
 
   ```markdown
-  ls -al
+  指令 --help
+  如：cd --help
+  不过全是英文......
+  ```
+
+- 切换目录
+
+  ```markown
+   cd 目录 #绝对路径或相对路径
+   cd / #根目录
+   cd - #返回之前所在目录
+   cd .. #返回上级目录
+   cd ../.. #返回上两级目录
+   cd !$ #把上个命令的参数作为cd 的参数来使用
+   pwd #查看当前目录
+  ```
+
+- 查看文件
+
+  ```markdown
+  ls -al #查看所有文件
+  ls -a #查看隐藏文件
+  ls -l #查看文件
+  ls -A #忽略.和..文件
+  ls -r #逆向排序
+  ls -t #更新时间排序
+  ls -S #大文件在前
+  ls -R #展现所有文件夹的内容
+  ls -lh #显示文件大小
   ```
 
   结果示例
@@ -554,7 +576,7 @@ open in browser
   ```markdown
   rm 文件
   rmdir 空目录
-  rm -rf 非空目录 r：删除目录 f：不提示 一定要小心使用
+  rm -rf 非空目录 #r：删除目录 f：不提示 一定要小心使用
   ```
 
 - 读写文件
