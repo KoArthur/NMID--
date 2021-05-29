@@ -20,7 +20,6 @@ https: //devolopcode.github.io
 - 在本地创建一个仓库和分支并远程同步
 
   ```markdown
-  echo "# test" >> README.md
   git init
   git add README.md
   git commit -m "信息"
