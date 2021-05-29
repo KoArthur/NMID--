@@ -148,6 +148,26 @@ https: //devolopcode.github.io
   git push [remote] --all #推送所有分支到远程仓库
   ```
 
+- 撤销
+
+  ```markdown
+  git checkout [file] #恢复暂存区的指定文件到工作区
+  git checkout [commit] [file] #恢复某个 commit 的指定文件到工作区
+  git checkout . #恢复上一个 commit 的所有文件到工作区
+  git reset [file] #重置暂存区的指定文件，与上一次 commit 保持一致，但工作区不变
+  git reset --hard #置暂存区与工作区，与上一次 commit 保持一致
+  git reset [commit] #重置当前分支的指针为指定 commit，同时重置暂存区，但工作区不变
+  git reset --hard [commit] #重置当前分支的 HEAD 为指定 commit，同时重置暂存区和工作区，与指定 commit 一致
+  git reset --keep [commit] #重置当前 HEAD 为指定 commit，但保持暂存区和工作区不变
+  git revert [commit] #新建一个 commit，用来撤销指定 commit，后者的所有变化都将被前者抵消，并且应用到当前分支
+  ```
+
+- 压缩包
+
+  ```markdown
+  git archive #生成一个可供发布的压缩包
+  ```
+
 - SLL
 
   ```markdown
