@@ -349,7 +349,7 @@ https: //devolopcode.github.io
   图片路径最前面要加/，markdown 无法设置图片大小，如果要设置图片大小用 img 标签，如太开心图片显示
 
   ```markdown
-  ![这是一个图片](/img/v2-47d2a3e3a7587bbade518e3eea88c9c5_720w.png "太开心")
+  ![这是一个图片](img/v2-47d2a3e3a7587bbade518e3eea88c9c5_720w.png "太开心")
   ```
 
 - 表格
