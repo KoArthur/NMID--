@@ -8,39 +8,25 @@
 https: //devolopcode.github.io
 ```
 
-#### git <font color="#FFA500">指令</font>
+#### 在本地创建仓库并远程同步<font color="#FFA500">步骤</font>
 
 - 配置用户
 
   ```markdown
-  git config --global user.name "user"
-  git config --global user.email "address@example.com"
+  git config --global user.name "[user]"
+  git config --global user.email "[address@example.com]"
   ```
 
-- 生成 SSL
-
-  ```markdown
-  ssh-keygen -t rsa -C "address@example.com"
-  ```
-
-- 检查配置
-
-  ```markdown
-  git config --list --show-origin
-  or
-  git config gui.fontdiff（某一项）
-  ```
-
-- 在本地创建一个仓库和分支
+- 在本地创建一个仓库和分支并远程同步
 
   ```markdown
   echo "# test" >> README.md
   git init
   git add README.md
   git commit -m "信息"
-  git branch -M branchname
-  git remote add origin https://github.com/repositoryname/.git
-  git push -u origin branchname
+  git branch -M [branch]
+  git remote add origin https://github.com/[repository]/.git
+  git push -u origin [branch]
   ```
 
 - 上传项目
@@ -48,15 +34,77 @@ https: //devolopcode.github.io
   ```markdown
   git add .
   git commit -m "信息"
-  git push -u origin branchname
+  git push -u origin [branch]
   ```
 
-- SLL 问题解决办法
+- SSL 问题解决办法
+
+  ```markdown
+  git config --global http.proxy
+  ```
+
+#### 常用 git <font color="#FFA500">指令</font>
+
+- 新建代码库
+
+  ```markdown
+  git init #在当前目录新建一个 Git 代码库
+  git init [project-name] #新建一个目录，将其初始化为 Git 代码库
+  git clone [url] #下载一个项目和它的整个代码历史
+  ```
+
+- 配置
+
+  ```markdown
+  git config --list #显示当前的 Git 配置
+  git config -e --global #编辑 Git 配置文件
+  git config --global user.name "[user]"
+  git config --global user.email "[address@example.com]" #设置提交代码时的用户信息
+  ```
+
+- 添加/删除文件
+
+  ```markdown
+  git add [file1] [file2] ... #添加指定文件到暂存区
+  git add [dir] #添加指定目录到暂存区，包括子目录
+  git add . #添加当前目录的所有文件到暂存区
+  git rm [file1] [file2] ... #删除工作区文件，并且将这次删除放入暂存区
+  git rm --cached [file] #停止追踪指定文件，但该文件会保留在工作区
+  git mv [file-original] [file-renamed] #改名文件，并且将这个改名放入暂存区
+  ```
+
+- 代码提交
+
+  ```markdown
+  git commit -m [message] #提交暂存区到仓库区
+  git commit [file1] [file2] ... -m [message] #提交暂存区的指定文件到仓库区
+  git commit -a #提交工作区自上次 commit 之后的变化，直接到仓库区
+  git commit -v #提交时显示所有 diff 信息
+  git commit --amend -m [message] #使用一次新的 commit，替代上一次提交,如果代码没有任何新变化，则用来改写上一次 commit 的提交信息
+  git commit --amend ... #重做上一次 commit，并包括指定文件的新变化
+  ```
+
+- 分支
+
+  ```markdown
+
+  ```
+
+- 查看信息
+
+  ```
+  git status #显示所有变更文件
+  git log #显示当前分支的版本历史
+  git log --stat #显示 commit 历史，以及每次
+  ```
+
+- SLL
 
   ```markdown
   git config --global http.proxy #查看 git 的 http 代理配置
   git config --global https.proxy #查看 git 的 https 代理配置
   git config --global -l #查看 git 的所有配置
+  ssh-keygen -t rsa -C "address@example.com" #生成 SLL
   ```
 
 - 使用 git 指令的好处
