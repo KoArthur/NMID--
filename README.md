@@ -185,6 +185,18 @@ https: //devolopcode.github.io
 
   能够方便修改文件结构
 
+- 与 git 相关的文件
+
+  ```markdown
+  .gitconfig #git 配置文件
+  .minttyrc #git 样式文件
+  .viminfo #vim 配置文件
+  .vimrc #vim 样式文件
+  .bash_history #执行过的命令行记录
+  ```
+
+  这些文件默认都放在`c:\users\user\[user]`，vim 可以通过 Linux 命令打开
+
 #### markdown <font color="#FFA500">指令</font>
 
 - `标题`
@@ -334,8 +346,7 @@ https: //devolopcode.github.io
   ![图片无法显示时的文字](路径 "鼠标停在图片显示的文字")
   ```
 
-  markdown 无法设置图片大小，如果要设置图片大小用 img 标签
-  相对路径使用/，且最前面也要加/，例如太开心图片的显示
+  图片路径最前面要加/，markdown 无法设置图片大小，如果要设置图片大小用 img 标签，如太开心图片显示
 
   ```markdown
   ![这是一个图片](/img/v2-47d2a3e3a7587bbade518e3eea88c9c5_720w.png "太开心")
@@ -413,7 +424,7 @@ krita 官网：<https://krita.org/zh>
 
 krita 介绍：Krita 这个自由开源数字绘画软件项目，从立项到现在已经经历了 20 多年的风风雨雨。和许多在业界久负盛名的项目不同，Krita 的成长之路异常艰辛。开发人员一代代薪火相传，无数志愿者来来去去。项目前期十几年如一日的门庭冷落，数度改名，在姐妹项目的包容下艰难存续，到后来被迫自寻出路，大胆地改变开发方向并自筹资金。在不知不觉中，Krita 已经成长为一款相对成熟，用户群体以百万计的行业软件。现在的它既是许多专业人士的谋生工具，也是众多爱好者自我表达的工具。
 
-![krita](/img/2021-development-fund.png "krita")
+![krita](img/2021-development-fund.png "krita")
 
 - 快捷键
 
@@ -519,11 +530,10 @@ open in browser
    cd 路径
    如 cd c:\users
       cd c://users
-      cd users
       cd /c/users
+      cd users
+      cd users/[user]
   ```
-
-  带有根目录视为绝对路径，否则是相对路径
 
 - 查看目录
 
