@@ -10,7 +10,28 @@ https: //devolopcode.github.io
 
 #### git <font color="#FFA500">指令</font>
 
-- 创建新分支
+- 配置用户
+
+  ```markdown
+  git config --global user.name "user"
+  git config --global user.email "address@example.com"
+  ```
+
+- 生成 SSL
+
+  ```markdown
+  ssh-keygen -t rsa -C "address@example.com"
+  ```
+
+- 检查配置
+
+  ```markdown
+  git config --list --show-origin
+  or
+  git config gui.fontdiff（某一项）
+  ```
+
+- 在本地创建一个仓库和分支
 
   ```markdown
   echo "# test" >> README.md
