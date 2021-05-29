@@ -153,7 +153,7 @@ https: //devolopcode.github.io
   git pull origin [branch] #同步远程仓库到本地，等于git fetch+it merge
   git clone [url] #克隆项目仓库到本地
   git fetch origin [branch] #从远程仓库获取最新
-  git merge origin [branch] #进行合并
+  git merge origin/[branch] #进行合并
   ```
 
 - 撤销
