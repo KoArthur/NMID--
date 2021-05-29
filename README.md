@@ -340,17 +340,13 @@ https: //devolopcode.github.io
 
 - 图片
 
-  ![这是一个图片](/img/v2-47d2a3e3a7587bbade518e3eea88c9c5_720w.png "太开心")
+  ![这是一个图片](img/v2-47d2a3e3a7587bbade518e3eea88c9c5_720w.png "太开心")
 
   ```markdown
   ![图片无法显示时的文字](路径 "鼠标停在图片显示的文字")
   ```
 
-  图片路径最前面要加/，markdown 无法设置图片大小，如果要设置图片大小用 img 标签，如太开心图片显示
-
-  ```markdown
-  ![这是一个图片](img/v2-47d2a3e3a7587bbade518e3eea88c9c5_720w.png "太开心")
-  ```
+  markdown 无法设置图片大小，如果要设置图片大小用 img 标签
 
 - 表格
 
@@ -527,12 +523,7 @@ open in browser
 - 切换目录
 
   ```mardown
-   cd 路径
-   如 cd c:\users
-      cd c://users
-      cd /c/users
-      cd users
-      cd users/[user]
+   cd 绝对路径或相对路径
   ```
 
 - 查看目录
