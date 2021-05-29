@@ -176,11 +176,9 @@ https: //devolopcode.github.io
 - SLL
 
   ```markdown
-  git config --global http.proxy
   git config --global https.proxy #查看 git 代理配置
   git config --global -l #查看 git 的所有配置
   ssh-keygen -t rsa -C "address@example.com" #生成 SLL
-  git config --global --unset http.proxy
   git config --global --unset https.proxy #取消执行代理
   ```
 
