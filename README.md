@@ -40,6 +40,11 @@ https: //devolopcode.github.io
 
   ```markdown
   git config --global http.proxy
+  git config --global https.proxy #一条就行
+  or 
+  git config --global --unset http.proxy
+  git config --global --unset https.proxy #一条就行
+  实在不行重新打开git bash......
   ```
 
 #### 常用 git <font color="#FFA500">指令</font>
@@ -145,6 +150,10 @@ https: //devolopcode.github.io
   git push [remote] [branch] #上传本地指定分支到远程仓库
   git push [remote] --force #强行推送当前分支到远程仓库，即使有冲突
   git push [remote] --all #推送所有分支到远程仓库
+  git pull origin [branch] #同步远程仓库到本地，等于git fetch+it merge
+  git clone [url] #克隆项目仓库到本地
+  git fetch origin [branch] #从远程仓库获取最新
+  git merge origin [branch] #进行合并
   ```
 
 - 撤销
