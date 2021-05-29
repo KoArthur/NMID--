@@ -541,13 +541,6 @@ open in browser
   date -s "20170901 8:30:00" #设置系统时间
   ```
 
-- 关机和重启
-
-  ```markdown
-  reboot #重启
-  powerofff #关机
-  ```
-
 - 切换目录
 
   ```markown
