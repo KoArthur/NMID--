@@ -39,12 +39,9 @@ https: //devolopcode.github.io
 - SSL 问题解决办法
 
   ```markdown
-  git config --global http.proxy
-  git config --global https.proxy #一条就行
+  git config --global https.proxy
   or
-  git config --global --unset http.proxy
-  git config --global --unset https.proxy #一条就行
-  实在不行重新打开 git bash......
+  git config --global --unset https.proxy
   ```
 
 #### 常用 git <font color="#FFA500">指令</font>
