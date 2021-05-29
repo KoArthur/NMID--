@@ -54,7 +54,9 @@ https: //devolopcode.github.io
 - SLL 问题解决办法
 
   ```markdown
-  git config --global --unset http.proxy
+  git config --global http.proxy #查看 git 的 http 代理配置
+  git config --global https.proxy #查看 git 的 https 代理配置
+  git config --global -l #查看 git 的所有配置
   ```
 
 - 使用 git 指令的好处
