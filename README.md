@@ -225,9 +225,13 @@ https: //devolopcode.github.io
 - 文字样式
 
   _我是斜体_
+
   **我是粗体**
+
   **_我是斜体加粗体_**
+
   我是^上标^
+
   我是~下标~
 
   ```markdown
