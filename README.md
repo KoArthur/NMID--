@@ -101,7 +101,12 @@ https: //devolopcode.github.io
   git cherry-pick [commit] #选择一个 commit，合并进当前分支
   git branch -d [branch-name] #删除分支
   git push --delete origin [branch] #删除远程分支
-  git push --set-upstream origin [branch] #上传本地分支或设置分支关联关系
+  git push --set-upstream origin [branch]
+  git push -u origin [branch] #上传本地分支并设置分支关联关系
+  git branch -u origin/[branch]
+  git branch --set-upstream-to=origin/test #设置本地分支与远程分支关联关系
+  git branch --unset-upstream [branch] #取消本地分支关联关系
+  git branch -vv #查看对应关系
   ```
 
 - 标签
