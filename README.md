@@ -1,4 +1,3 @@
-<div style="background-color:#FDF5E6;padding:20px;">
 
 # <font color="#800080">第一次任务学习收获</font>:closed_book:
 
@@ -208,15 +207,15 @@ https: //devolopcode.github.io
 
   ```markdown
   # 一级标题
-
+  
   ## 二级标题
-
+  
   ### 三级标题
-
+  
   #### 四级标题
-
+  
   ##### 五级标题
-
+  
   ###### 六级标题
   ```
 
@@ -285,7 +284,7 @@ https: //devolopcode.github.io
 
   2. 1.
      2.
-  3.
+     3.
 
   ```markdown
   无序
@@ -340,7 +339,7 @@ https: //devolopcode.github.io
 - 代码块
 
   ````markdown
-  ```语言（可以不加）
+  ​```语言（可以不加）
      不同语言会显示不同颜色
   ```
 
@@ -625,7 +624,12 @@ open in browser
   写文件
 
   ```markdown
-  vim 文件
+  echo "内容" > 文件 #覆盖写入
+  echo "内容" >> 文件 #追加写入
   ```
+  
 
-</div>
+* vim 操作文件
+
+  ```
+  vim 文件 #打开vim
