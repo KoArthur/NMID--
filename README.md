@@ -100,8 +100,8 @@ https: //devolopcode.github.io
   git merge [branch] #合并指定分支到当前分支
   git cherry-pick [commit] #选择一个 commit，合并进当前分支
   git branch -d [branch-name] #删除分支
-  git push origin --delete
-  git branch -dr #删除远程分支
+  git push --delete origin [branch] #删除远程分支
+  git push --set-upstream origin [branch] #上传本地分支或设置分支关联关系
   ```
 
 - 标签
