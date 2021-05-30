@@ -425,7 +425,12 @@ https: //devolopcode.github.io
   上面六个表情对应的编码
 
   ```markdown
-  :smile: :point_up: :jack_o_lantern: :checkered_flag: :stuck_out_tongue: :open_hands:
+  :smile:
+  :point_up:
+  :jack_o_lantern:
+  :checkered_flag:
+  :stuck_out_tongue:
+  :open_hands:
   ```
 
 - 其他
