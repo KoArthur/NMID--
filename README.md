@@ -1,4 +1,3 @@
-
 # <font color="#800080">第一次任务学习收获</font>:closed_book:
 
 #### 我的个人[网站](https://devolopcode.github.io):globe_with_meridians:
@@ -207,15 +206,15 @@ https: //devolopcode.github.io
 
   ```markdown
   # 一级标题
-  
+
   ## 二级标题
-  
+
   ### 三级标题
-  
+
   #### 四级标题
-  
+
   ##### 五级标题
-  
+
   ###### 六级标题
   ```
 
@@ -340,8 +339,8 @@ https: //devolopcode.github.io
 
   ````markdown
   ​```语言（可以不加）
-     不同语言会显示不同颜色
-  ```
+  不同语言会显示不同颜色
+  ````
 
   ```javascript
   console.log("hello world");
@@ -350,9 +349,12 @@ https: //devolopcode.github.io
   ```python
      print("hello world")
   ```
-  ````
+
+  ```
 
   也可以在文字两边各加个\`来`标记`文字
+
+  ```
 
 - 图片
 
@@ -618,7 +620,15 @@ open in browser
   读文件
 
   ```markdown
-  cat 文件
+  cat
+  cat 文件 #显示所有内容
+  cat -n 文件 #显示所有内容并显示行号
+  head
+  head 文件 #显示头 10 行内容
+  hade 文件 -n 10 #从头行开始输出 10 行
+  tail
+  tail -f 文件 #输出最后 10 行
+  tail -f 文件 -n 1- #输出最后 10 行
   ```
 
   写文件
@@ -627,9 +637,9 @@ open in browser
   echo "内容" > 文件 #覆盖写入
   echo "内容" >> 文件 #追加写入
   ```
-  
 
-* vim 操作文件
+- vim 操作文件
 
   ```
   vim 文件 #打开vim
+  ```
