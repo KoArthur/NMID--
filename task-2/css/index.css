@@ -11,6 +11,7 @@ body {
     width: 1898px;
     height: 3851px;
     background-color: rgb(243, 245, 249);
+    overflow-x: hidden;
 }
 
 header {
@@ -19,7 +20,7 @@ header {
     background: linear-gradient(-57deg, #17115e, #261b7b);
 }
 
-section {
+#section {
     width: 1898px;
     height: 2177px;
     background-color: #f3f5f9;
@@ -87,7 +88,15 @@ header>div {
     position: relative;
     z-index: 1;
     display: flex;
+    flex-direction: row;
+}
+
+#section>#content {
+    position: relative;
+    display: flex;
+    align-items: center;
     flex-direction: column;
+    color: #000000;
 }
 
 header>nav>#icon {
@@ -124,7 +133,14 @@ header>nav>#session {
     font-size: 15px;
 }
 
-header>div>#title {
+header>div>img {
+    width: 674px;
+    position: relative;
+    top: 100px;
+    left: 460px;
+}
+
+header>div>div>#title {
     color: #FFFFFF;
     font-size: 48px;
     line-height: 60px;
@@ -134,7 +150,7 @@ header>div>#title {
     left: 384px;
 }
 
-header>div>#describe {
+header>div>div>#describe {
     color: #FFFFFF;
     line-height: 24px;
     font-size: 15px;
@@ -144,7 +160,7 @@ header>div>#describe {
     top: 343px;
 }
 
-header>div>#btn {
+header>div>div>#btn {
     justify-content: center;
     align-items: center;
     font-size: 13px;
@@ -159,4 +175,139 @@ header>div>#btn {
     border-radius: 4px;
     border: none;
     box-shadow: 0 10px 24px 0px #140b4e;
+}
+
+#section #content #text1 {
+    position: relative;
+    font-size: 35px;
+    width: 296px;
+    top: 148px;
+}
+
+#section #content #text2 {
+    text-align: center;
+    position: relative;
+    font-size: 19px;
+    width: 849px;
+    top: 177px;
+    line-height: 29.33px;
+}
+
+#section #content #box5 {
+    position: relative;
+    top: 264px;
+    width: 1300px;
+    height: 380px;
+    background-color: #f3f5f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#section #content #text3 {
+    position: relative;
+    font-size: 35px;
+    width: 394px;
+    top: 412px;
+}
+
+#section #content #text4 {
+    text-align: center;
+    position: relative;
+    font-size: 19px;
+    width: 849px;
+    top: 441px;
+    line-height: 29.33px;
+}
+
+#section #content #box6 {
+    width: 1200px;
+    height: 140px;
+    position: relative;
+    top: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section #content #box7 {
+    width: 1300px;
+    position: relative;
+    top: 720px;
+    display: flex;
+}
+
+#section #content #box5>div {
+    width: 365px;
+    height: 380px;
+    background-color: #FFFFFF;
+}
+
+#section #content #box6>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 183px;
+}
+
+#section #content #box7>div:first-child {
+    position: relative;
+    top: 50px;
+}
+
+#section #content #box7>div:nth-child(2) {
+    position: relative;
+    left: 400px;
+}
+
+#section #content #box7>div:first-child>p:first-child {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#section #content #box7>div:first-child>p:nth-child(2) {
+    font-size: 14px;
+    color: #7b7b7b;
+    width: 484px;
+    position: relative;
+    top: 40px;
+}
+
+#section #content #box7>div:first-child>p:last-child {
+    font-size: 13px;
+    color: #083cc2;
+    position: relative;
+    top: 70px;
+}
+
+#section #content #box6>div>div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section #content #box6>div #shadow {
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: 0px 3px 9px 7px #dbdce7;
+}
+
+#section #content #box6>div>p {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: #7e8083;
+}
+
+#section #content #box6>div #black {
+    color: #000000;
+}
+
+#section #content #box6>div>div>img {
+    width: 41px;
+    height: 41px;
 }
