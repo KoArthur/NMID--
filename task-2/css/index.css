@@ -9,7 +9,7 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 1898px;
-    height: 3851px;
+    height: 3951px;
     background-color: rgb(243, 245, 249);
     overflow-x: hidden;
 }
@@ -22,7 +22,7 @@ header {
 
 #section {
     width: 1898px;
-    height: 2177px;
+    height: 2547px;
     background-color: #f3f5f9;
 }
 
@@ -31,6 +31,7 @@ footer {
     height: 711px;
     background: linear-gradient(to left, #17115e, #2b1ca2);
     justify-content: center;
+    display: flex;
 }
 
 #box1 {
@@ -58,23 +59,23 @@ footer {
 #box3 {
     position: absolute;
     width: 1898px;
-    height: 1111px;
+    height: 1196px;
     background: linear-gradient(180deg, #e2e7f5, #f0f2f8);
     border-radius: 1000px/100px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    top: 2029px;
+    top: 2089px;
 }
 
 #box4 {
     position: absolute;
-    width: 710px;
-    height: 757px;
+    width: 730px;
+    height: 820px;
     background-color: rgb(239, 242, 248);
-    border-radius: 100px;
-    transform: rotate(-40deg);
+    transform: rotate(-39deg);
     left: -400px;
-    top: 2550px;
+    top: 2650px;
+    border-radius: 0px 0px 100px 0px;
 }
 
 header>nav {
@@ -89,14 +90,6 @@ header>div {
     z-index: 1;
     display: flex;
     flex-direction: row;
-}
-
-#section>#content {
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: #000000;
 }
 
 header>nav>#icon {
@@ -177,6 +170,14 @@ header>div>div>#btn {
     box-shadow: 0 10px 24px 0px #140b4e;
 }
 
+#section>#content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+}
+
 #section #content #text1 {
     position: relative;
     font-size: 35px;
@@ -230,10 +231,22 @@ header>div>div>#btn {
 }
 
 #section #content #box7 {
-    width: 1300px;
+    width: 1898px;
     position: relative;
     top: 720px;
     display: flex;
+}
+
+#section #content #box8 {
+    width: 1170px;
+    height: 176px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 748px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 #section #content #box5>div {
@@ -251,13 +264,33 @@ header>div>div>#btn {
 }
 
 #section #content #box7>div:first-child {
+    left: 355px;
     position: relative;
     top: 50px;
 }
 
 #section #content #box7>div:nth-child(2) {
     position: relative;
-    left: 400px;
+    left: 551px;
+}
+
+#section #content #box8>p {
+    position: relative;
+    left: 51px;
+    font-size: 35px;
+    color: #2050cb;
+    font-weight: bold;
+}
+
+#section #content #box8>div {
+    position: relative;
+    right: 51px;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    background: linear-gradient(45deg, #0790e4, #1042c1);
+    justify-content: center;
+    box-shadow: 0px 17px 27px 0 #afafaf;
 }
 
 #section #content #box7>div:first-child>p:first-child {
@@ -265,20 +298,7 @@ header>div>div>#btn {
     font-weight: bold;
 }
 
-#section #content #box7>div:first-child>p:nth-child(2) {
-    font-size: 14px;
-    color: #7b7b7b;
-    width: 484px;
-    position: relative;
-    top: 40px;
-}
 
-#section #content #box7>div:first-child>p:last-child {
-    font-size: 13px;
-    color: #083cc2;
-    position: relative;
-    top: 70px;
-}
 
 #section #content #box6>div>div {
     width: 100px;
@@ -307,7 +327,61 @@ header>div>div>#btn {
     color: #000000;
 }
 
+#section #content #box7>div:first-child>p:nth-child(2) {
+    font-size: 14px;
+    color: #7b7b7b;
+    width: 484px;
+    position: relative;
+    top: 40px;
+}
+
+#section #content #box7>div:first-child>p:last-child {
+    font-size: 13px;
+    color: #083cc2;
+    position: relative;
+    top: 70px;
+}
+
+#section #content #box8>div>p {
+    color: #FFFFFF;
+    font-size: 13px;
+    align-self: center;
+}
+
 #section #content #box6>div>div>img {
     width: 41px;
     height: 41px;
+}
+
+footer>#box9 {
+    width: 1176px;
+    height: 494px;
+}
+
+footer>#box9>div:nth-of-type(1) {
+    width: 373px;
+    height: 494px;
+}
+
+footer>#box9>div:nth-of-type(1)>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 373px;
+}
+
+footer>#box9>div:nth-of-type(1)>p {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+footer>#box9>div:nth-of-type(1)>div:nth-of-type(1)>p {
+    color: #70abee;
+}
+
+footer>#box9>div:nth-of-type(1)>div:nth-of-type(2)>p {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 24px;
 }
