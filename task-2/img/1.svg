@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 101" width="96" height="101">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #a2d2f9;stroke-width: 2 } 
+		.shp1 { fill: #ff5fb7 } 
+		.shp2 { fill: #a6d4f9 } 
+		.shp3 { fill: #94c0f1 } 
+		.shp4 { fill: #7eacea } 
+		.shp5 { fill: #86b5ee } 
+		.shp6 { fill: #8abaf0 } 
+		.shp7 { fill: none;stroke: #a2d2f9;stroke-linecap:round;stroke-width: 3 } 
+		.shp8 { fill: #a2d2f9 } 
+		.shp9 { fill: none;stroke: #2e59c5;stroke-linecap:round;stroke-width: 2;stroke-dasharray: 0,6 } 
+		.shp10 { fill: none;stroke: #2e59c5 } 
+		.shp11 { fill: none;stroke: #2e59c5;stroke-width: 2 } 
+	</style>
+	<path id="形状 32" class="shp0" d="M35 37L35 95L53 95L53 37L35 37Z" />
+	<path id="矩形 11" class="shp1" d="M69 68L95 68L95 94L69 94L69 68Z" />
+	<path id="形状 12" class="shp1" d="M76 38L87 38L82 46L81 46L76 38Z" />
+	<path id="形状 13" class="shp2" d="M75 2L83 2L83 10L75 10L75 2Z" />
+	<path id="形状 14" class="shp2" d="M29 95L59 95L59 100L29 100L29 95Z" />
+	<path id="形状 15" class="shp3" d="M49 29L57 29L57 37L49 29L49 29Z" />
+	<path id="形状 16" class="shp4" d="M46 29L55 38L50 38L41 29L46 29Z" />
+	<path id="形状 16 拷贝" class="shp5" d="M43 38L34 29L39 29L48 38L43 38Z" />
+	<path id="形状 15 拷贝" class="shp6" d="M40 38L32 38L32 30L40 38L40 38Z" />
+	<path id="椭圆 5" class="shp7" d="M15 51C18.87 51 22 54.13 22 58C22 61.87 18.87 65 15 65C11.13 65 8 61.87 8 58C8 54.13 11.13 51 15 51Z" />
+	<path id="矩形 12 拷贝 9" class="shp8" d="M13 49L16 49L16 53L13 53L13 49ZM14 63L17 63L17 67L14 67L14 63ZM20 59L24 59L24 62L20 62L20 59ZM5 55L9 55L9 58L5 58L5 55ZM9 49.51L11.67 52.49L9.43 54.49L6.77 51.51L9 49.51ZM19 61.51L21.67 64.49L19.43 66.49L16.77 63.51L19 61.51ZM21.69 51.8L18.71 54.47L16.71 52.23L19.69 49.56L21.69 51.8ZM13.69 63.8L10.71 66.47L8.71 64.23L11.69 61.56L13.69 63.8ZM9.7 61.19L6.34 63.36L4.71 60.84L8.07 58.67L9.7 61.19ZM24.7 56.19L21.34 58.36L19.71 55.84L23.07 53.67L24.7 56.19Z" />
+	<path id="椭圆 6" class="shp9" d="M11.5 56C16.75 56 21 60.25 21 65.5C21 70.75 16.75 75 11.5 75C6.25 75 2 70.75 2 65.5C2 60.25 6.25 56 11.5 56Z" />
+	<path id="椭圆 6 拷贝" class="shp9" d="M82.95 3.97C86.34 3.97 89.09 6.66 89.09 9.98C89.09 13.31 86.34 16 82.95 16C79.56 16 76.81 13.31 76.81 9.98C76.81 6.66 79.56 3.97 82.95 3.97Z" />
+	<path id="形状 17" class="shp10" d="M11 8L6 13L11 18" />
+	<path id="形状 17 拷贝" class="shp10" d="M21 8L26 13L21 18" />
+	<path id="形状 18" class="shp10" d="M13 18L18 8" />
+	<path id="形状 19" class="shp11" d="M7 28L95 28" />
+	<path id="形状 20" class="shp11" d="M44 28L44 8" />
+	<path id="形状 21" class="shp11" d="M14 28L44 8" />
+	<path id="形状 22" class="shp11" d="M46 8L88 28" />
+	<path id="形状 23" class="shp11" d="M33 30L33 38L56 38L56 30" />
+	<path id="形状 24" class="shp11" d="M78 30L78 37L85 37L85 30" />
+	<path id="形状 25" class="shp11" d="M75 37L88 37L83 47L80 47L75 37" />
+	<path id="形状 26" class="shp11" d="M82 47L82 49C86.1 49.64 86 53 86 53L86 55C85.36 56.98 83 58 83 58L81 58C77.4 58.07 77 53 77 53" />
+	<path id="形状 27" class="shp11" d="M82 58L74 68" />
+	<path id="形状 28" class="shp11" d="M84 58L93 68" />
+	<path id="形状 29" class="shp11" d="M68 93L95 67" />
+	<path id="形状 30" class="shp11" d="M69 67L96 94" />
+	<path id="形状 31" class="shp11" d="M28 94L60 94L60 101L28 101L28 94Z" />
+	<path id="形状 33" class="shp0" d="M37 38L52 48L38 57L52 67L38 77L51 86L37 95" />
+</svg>
