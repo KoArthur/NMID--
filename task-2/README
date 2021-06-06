@@ -1,1 +1,47 @@
-a
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: inline-block;
+            background:url(1.png) no-repeat;
+        }
+        .a{
+            width: 80px;
+            height: 100px;
+            background-position: -870px -8px;
+        }
+        .b{
+            width: 80px;
+            height: 100px;
+            background-position: -870px -135px;
+        }
+        .c{
+            width: 80px;
+            height: 100px;
+            background-position: -870px -248px;
+        }
+        .d{
+            width: 80px;
+            height: 100px;
+            background-position: -870px -378px;
+        }
+        .e{
+            width: 80px;
+            height: 100px;
+            background-position: -870px -498px;
+        }
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+</body>
+</html>
