@@ -15,19 +15,19 @@ body {
 }
 
 header {
-    width: 1898px;
+    width: 100%;
     height: 963px;
     background: linear-gradient(-57deg, #17115e, #261b7b);
 }
 
 #section {
-    width: 1898px;
+    width: 100%;
     height: 2547px;
     background-color: #f3f5f9;
 }
 
 footer {
-    width: 1898px;
+    width: 100%;
     height: 711px;
     background: linear-gradient(to left, #17115e, #2b1ca2);
     align-items: center;
