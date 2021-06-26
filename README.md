@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/学习-学习收获-#FF0000.svg)]({linkUrl})
+[![](https://img.shields.io/badge/学习-学习收获-FF0000.svg)]({linkUrl})
 # <font color="#800080">第一次任务学习收获</font>:closed_book:
 
 #### 我的个人[网站](https://devolopcode.github.io):globe_with_meridians:
