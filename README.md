@@ -4,13 +4,13 @@
 [![](https://img.shields.io/badge/date-2021&minus;06&minus;30-EA9085.svg)](https://devolopcode.github.io)
 # <font color="#800080">第一次任务学习收获</font>📚
 
-#### 我的个人[网站](https://devolopcode.github.io)🍉
+### 我的个人[网站](https://devolopcode.github.io)🍉
 
 ```markdown
 https: //devolopcode.github.io
 ```
 
-#### 在本地创建仓库并远程同步步骤🍉
+### 在本地创建仓库并远程同步步骤🍉
 
 - 配置用户
 
@@ -46,7 +46,7 @@ https: //devolopcode.github.io
   git config --global --unset https.proxy
   ```
 
-#### 常用 git 指令🍉
+### 常用 git 指令🍉
 
 - 新建代码库
 
@@ -204,7 +204,7 @@ https: //devolopcode.github.io
 
   这些文件默认都放在`c:\users\user\[user]`，vim 可以通过 Linux 命令打开
 
-#### markdown 指令🍉
+### markdown 指令🍉
 
 - `标题`
 
@@ -433,7 +433,7 @@ https: //devolopcode.github.io
 - 其他
   markdown 支持 html 标签，设置自定义样式时可以通过 html 标签来实现，markdown 对缩进换行都有严格要求，这样才能实现文档层级要求
 
-#### krita 学习🍉
+### krita 学习🍉
 
 krita 官网：<https://krita.org/zh>
 
@@ -507,7 +507,7 @@ krita 介绍：Krita 这个自由开源数字绘画软件项目，从立项到�
 
   4. CMYK：CMYK 颜色模型是一种应用相减原理的 色彩系统 。它的颜色来源于反射光线。当所有的颜色叠加在一起时会产生黑色，当没有任何颜色加入的时候为白色。CMYK 颜色模型包括青 (cyan)、品红 (magenta)、黄 (yellow)和黑 (black)，为避免与 Blue 混淆，黑色用 K 表示。 彩色打印、印刷等应用领域采用打印墨水、彩色涂料的反射光来显现颜色，是一种减色方式。
 
-#### visual code 插件🍉
+### visual code 插件🍉
 
 ```markdown
 Chinese(Simplified)Language Pack for Visual Studio Code
@@ -537,7 +537,7 @@ Color Highlight
 open in browser
 ```
 
-#### Linux 指令🍉
+### Linux 指令🍉
 
 - 学习书籍
 
