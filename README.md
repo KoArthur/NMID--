@@ -1,16 +1,16 @@
 [![](https://img.shields.io/badge/note-学习收获-A1C45A.svg)](https://devolopcode.github.io)
 [![](https://img.shields.io/badge/code-HTML5&nbsp;&nbsp;CSS-F08080.svg)](https://devolopcode.github.io)
 [![](https://img.shields.io/badge/tool-Atom&nbsp;&nbsp;GitHubDesktop-742DD2.svg)](https://devolopcode.github.io)
-[![](https://img.shields.io/badge/date-2021&minus;06&minus;28-EA9085.svg)](https://devolopcode.github.io)
-# <font color="#800080">第一次任务学习收获</font>:books:
+[![](https://img.shields.io/badge/date-2021&minus;06&minus;30-EA9085.svg)](https://devolopcode.github.io)
+# <font color="#800080">第一次任务学习收获</font>📚
 
-#### 我的个人[网站](https://devolopcode.github.io):globe_with_meridians:
+#### 我的个人[网站](https://devolopcode.github.io)🍉
 
 ```markdown
 https: //devolopcode.github.io
 ```
 
-#### 在本地创建仓库并远程同步<font color="#FFA500">步骤</font>
+#### 在本地创建仓库并远程同步步骤🍉
 
 - 配置用户
 
@@ -46,7 +46,7 @@ https: //devolopcode.github.io
   git config --global --unset https.proxy
   ```
 
-#### 常用 git <font color="#FFA500">指令</font>
+#### 常用 git 指令🍉
 
 - 新建代码库
 
@@ -204,7 +204,7 @@ https: //devolopcode.github.io
 
   这些文件默认都放在`c:\users\user\[user]`，vim 可以通过 Linux 命令打开
 
-#### markdown <font color="#FFA500">指令</font>
+#### markdown 指令🍉
 
 - `标题`
 
@@ -232,16 +232,19 @@ https: //devolopcode.github.io
 
   **_我是斜体加粗体_**
 
-  我是^上标^
+  我是<sup>上标</sup>
 
-  我是~下标~
+  我是<sub>下标</sub>
+
+  我是~删除线~
 
   ```markdown
   _我是斜体_
   **我是粗体**
   **_我是斜体加粗体_**
-  我是^上标^
-  我是~下标~
+  我是<sup>上标</sup>
+  我是<sub>下标</sub>
+  我是~删除线~
   ```
 
 - 摘要或引用
@@ -260,7 +263,6 @@ https: //devolopcode.github.io
   > > > > > > 满二叉树
 
   ```
-  > 摘要或引用
   >
   > > 数据结构
   > >
@@ -296,7 +298,7 @@ https: //devolopcode.github.io
   - 内容 2
   - 内容 3
 
-  +和\*(星号)也能实现无序
+  +和*也能实现无序
 
   有序
 
@@ -326,9 +328,9 @@ https: //devolopcode.github.io
   ```markdown
   ---
 
-  \*\*\*
+  ***
 
-  三个-或\*（星号），如果上面有内容，一定要隔开一行，不然上边内容会被识别为标题
+  三个-或*（星号），如果上面有内容，一定要隔开一行，不然上边内容会被识别为标题
   ```
 
 - 超链接
@@ -347,7 +349,7 @@ https: //devolopcode.github.io
   ````
 
   ```javascript
-  console.log("hello world");
+     console.log("hello world");
   ```
 
   ```python
@@ -411,17 +413,7 @@ https: //devolopcode.github.io
   <address@example.com>
   ```
 
-- 高亮
-
-  ==高亮==
-
-  github 好像不支持高亮......
-
-  ```markdown
-  ==高亮==
-  ```
-
-- emoji🥰
+- emoji
 
   :smile: :point_up: :jack_o_lantern: :checkered_flag: :stuck_out_tongue: :open_hands:
 
@@ -441,7 +433,7 @@ https: //devolopcode.github.io
 - 其他
   markdown 支持 html 标签，设置自定义样式时可以通过 html 标签来实现，markdown 对缩进换行都有严格要求，这样才能实现文档层级要求
 
-#### <font color="#9932CC">krita</font> 学习
+#### krita 学习🍉
 
 krita 官网：<https://krita.org/zh>
 
@@ -515,7 +507,7 @@ krita 介绍：Krita 这个自由开源数字绘画软件项目，从立项到�
 
   4. CMYK：CMYK 颜色模型是一种应用相减原理的 色彩系统 。它的颜色来源于反射光线。当所有的颜色叠加在一起时会产生黑色，当没有任何颜色加入的时候为白色。CMYK 颜色模型包括青 (cyan)、品红 (magenta)、黄 (yellow)和黑 (black)，为避免与 Blue 混淆，黑色用 K 表示。 彩色打印、印刷等应用领域采用打印墨水、彩色涂料的反射光来显现颜色，是一种减色方式。
 
-#### <font color="#008B8B">visual code</font> 插件
+#### visual code 插件🍉
 
 ```markdown
 Chinese(Simplified)Language Pack for Visual Studio Code
@@ -545,7 +537,7 @@ Color Highlight
 open in browser
 ```
 
-#### <font color="#1E90FF">Linux</font> 指令
+#### Linux 指令🍉
 
 - 学习书籍
 
