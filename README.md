@@ -1,5 +1,5 @@
 [![](https://img.shields.io/badge/note-学习收获-A1C45A.svg)](https://devolopcode.github.io)
-[![](https://img.shields.io/badge/code-HTML5&nbsp;&nbsp;CSS-F08080.svg)](https://devolopcode.github.io)
+[![](https://img.shields.io/badge/code-HTML&nbsp;&nbsp;CSS-F08080.svg)](https://devolopcode.github.io)
 [![](https://img.shields.io/badge/tool-Atom&nbsp;&nbsp;GitHubDesktop-742DD2.svg)](https://devolopcode.github.io)
 [![](https://img.shields.io/badge/date-2021&minus;06&minus;30-EA9085.svg)](https://devolopcode.github.io)
 # <font color="#800080">第一次任务学习收获</font>📚
@@ -210,15 +210,15 @@ https: //devolopcode.github.io
 
   ```markdown
   # 一级标题
-  
+
   ## 二级标题
-  
+
   ### 三级标题
-  
+
   #### 四级标题
-  
+
   ##### 五级标题
-  
+
   ###### 六级标题
   ```
 
@@ -645,4 +645,3 @@ open in browser
   :q! #强制退出
   :wq! #强制保存后退出
   ```
-
