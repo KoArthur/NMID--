@@ -1,5 +1,5 @@
 [![](https://img.shields.io/badge/note-学习收获-A1C45A.svg)](https://devolopcode.github.io)
-[![](https://img.shields.io/badge/code-HTML&nbsp;&nbsp;CSS-F08080.svg)](https://devolopcode.github.io)
+[![](https://img.shields.io/badge/language-HTML&nbsp;&nbsp;CSS-F08080.svg)](https://devolopcode.github.io)
 [![](https://img.shields.io/badge/tool-Atom&nbsp;&nbsp;GitHubDesktop-742DD2.svg)](https://devolopcode.github.io)
 [![](https://img.shields.io/badge/date-2021&minus;06&minus;30-EA9085.svg)](https://devolopcode.github.io)
 # <font color="#800080">第一次任务学习收获</font>📚
