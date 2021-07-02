@@ -203,7 +203,7 @@ https: //devolopcode.github.io
     .bash_history #执行过的命令行记录
     ```
 
-    这些文件默认都放在`c:\users\user\[user]`，vim 可以通过 Linux 命令打开
+    这些文件默认都放在`c:\users\user\[user]`，可以通过 Linux 命令 vim 打开
 
 ### markdown 指令🍉
 
