@@ -3,7 +3,7 @@
 [![](<https://img.shields.io/badge/tool-Atom  GitHubDesktop-742DD2.svg>)](https://devolopcode.github.io)
 [![](https://img.shields.io/badge/date-2021−06−30-EA9085.svg)](https://devolopcode.github.io)
 
-# <font color="#800080">第一次任务学习收获</font>📚
+# 第一次任务学习收获📚
 
 ### 我的个人[网站](https://devolopcode.github.io)🍉
 
