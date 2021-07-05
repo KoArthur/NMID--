@@ -249,30 +249,18 @@ https: //devolopcode.github.io
     ```
 
 -   摘要或引用
-    样式
 
-    > 摘要或引用
-    >
-    > > 数据结构
-    > >
-    > > > 树
-    > > >
-    > > > > 二叉树
-    > > > >
-    > > > > > 平衡二叉树
-    > > > > >
-    > > > > > > 满二叉树
+    > 数据结构
+    > > 树
+    > > > 二叉树
+    > > > > 平衡二叉树
+    > > > > > 满二叉树
 
-        >
-        > > 数据结构
-        > >
-        > > > 树
-        > > >
-        > > > > 二叉树
-        > > > >
-        > > > > > 平衡二叉树
-        > > > > >
-        > > > > > > 满二叉树
+        > 数据结构
+        > > 树
+        > > > 二叉树
+        > > > > 平衡二叉树
+        > > > > > 满二叉树
         可以通过这种方式嵌套
 
 -   列表
@@ -343,8 +331,9 @@ https: //devolopcode.github.io
 -   代码块
 
     ````markdown
-    ​```语言（可以不加）
+    ```语言（可以不加）
     不同语言会显示不同颜色
+    ```
     ````
 
     ```javascript
@@ -355,7 +344,7 @@ https: //devolopcode.github.io
     print("hello world")
     ```
 
-        也可以在文字两边各加个`来`标记`文字
+    也可以在文字两边各加个\`来`标记`文字
 
 -   图片
 
@@ -540,7 +529,7 @@ open in browser
 
 -   帮助命令
 
-    ```markdown
+    ```git
     指令 --help
     如：cd --help
     不过全是英文......
@@ -548,7 +537,7 @@ open in browser
 
 -   日期时间
 
-    ```markdown
+    ```git
     date #输出日期时间，如 2021 年 05 月 29 日 22:05:35
     date "+%Y-%m-%d %H:%M:%S" #自定义日期时间格式，如 2021-05-29 22:06:31，+号必须添加，date 还有其他参数：%j 表示一年中的第几天
     %t 表示跳格
@@ -557,7 +546,7 @@ open in browser
 
 -   切换目录
 
-    ```markown
+    ```git
      cd 目录 #绝对路径或相对路径
      cd / #根目录
      cd - #返回之前所在目录
@@ -569,7 +558,7 @@ open in browser
 
 -   查看文件
 
-    ```markdown
+    ```git
     ls -al #查看所有文件
     ls -a #查看隐藏文件
     ls -l #查看文件
@@ -583,7 +572,7 @@ open in browser
 
     结果示例
 
-    ```markdown
+    ```git
     -rw-r--r-- 1 fanli 197121 11018 May 28 23:53 README.md
     drwxr-xr-x 1 fanli 197121 0 May 28 22:32 img/
     ```
@@ -592,7 +581,7 @@ open in browser
 
 -   创建文件和文件夹
 
-    ```markdown
+    ```git
     touch 文件
     mkdir 目录
     mkdir -p 多级目录
@@ -600,7 +589,7 @@ open in browser
 
 -   删除文件和文件夹
 
-    ```markdown
+    ```git
     rm 文件
     rmdir 空目录
     rm -rf 非空目录 #r：删除目录 f：不提示 一定要小心使用
@@ -610,7 +599,7 @@ open in browser
 
     读文件
 
-    ```markdown
+    ```git
     cat
     cat 文件 #显示所有内容
     cat -n 文件 #显示所有内容并显示行号
@@ -624,14 +613,14 @@ open in browser
 
     写文件
 
-    ```markdown
+    ```git
     echo "内容" > 文件 #覆盖写入
     echo "内容" >> 文件 #追加写入
     ```
 
 -   vim 操作文件
 
-    ```markown
+    ```git
     vim 文件 #打开vim
     i #插入文件
     / #搜索字符串
