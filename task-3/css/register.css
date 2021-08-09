@@ -19,7 +19,7 @@ body {
 #bodyer #bg {
     width: calc(100% - 644px);
     height: 100%;
-    background-image: url("../img/注册背景图.png")
+    background-image: url("../img/注册背景图.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
