@@ -74,8 +74,11 @@ window.onload = function () {
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4) {
                 if (xhr.status >= 200 && xhr.status < 300) {
-                    $$("box").setAttribute("display", "block");
+                    $$("box").innerHTML = "<div id='wrap'><p id='txt'></p></div>";
                     $$("txt").innerText = "success";
+                    setTimeout(() => {
+                        $$("box").innerHTML = "";
+                    }, 2000);
                 } else {
                     console.log(error);
                 }
@@ -112,9 +115,5 @@ window.onload = function () {
     let oBack = $$("back");
     oBack.onclick = function () {
         window.location.href = "http://localhost:3000/NMID--/task-3/login.html";
-    }
-    let oRemove = $$("remove");
-    oRemove.onclick = function () {
-        $$("box").setAttribute("right", "20px");
     }
 };
