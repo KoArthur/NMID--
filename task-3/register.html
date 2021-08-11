@@ -13,6 +13,14 @@
 
 <body>
     <header></header>
+    <div id="box">
+        <div id="remove">
+            ×
+        </div>
+        <p id="txt">
+
+        </p>
+    </div>
     <div id="bodyer">
         <div id="bg"></div>
         <div id="register-panel">
@@ -25,12 +33,12 @@
             <div id="register">
                 <form id="form">
                     <label for="">
-                        <span>年龄：</span>
-                        <input type="text" id="age">
+                        <span>昵称：</span>
+                        <input type="text" id="name" name="name">
                     </label>
                     <label for="">
                         <span>性别：</span>
-                        <select name="" id="">
+                        <select name="" id="gender">
                             <option value="男">男</option>
                             <option value="女">女</option>
                         </select>
@@ -41,11 +49,11 @@
                     </label>
                     <label for="">
                         <span>邮箱：</span>
-                        <input type="text">
+                        <input type="text" name="phone" id="phone">
                     </label>
                     <label for="">
-                        <input type="text">
-                        <div id="btn">获取验证码</div>
+                        <input type="text" id="phone">
+                        <div id="btn" onclick="getcode()">获取验证码</div>
                     </label>
                     <label for="">
                         <input type="button" onclick="register()" value="注册">

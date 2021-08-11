@@ -16,6 +16,37 @@ body {
     flex-direction: row;
 }
 
+#box {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background-color: #1AA4B4;
+    right: 20px;
+    top: 20px;
+    border-radius: 20px;
+}
+
+#box #remove {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 370px;
+    border-radius: 0px 20px 0px 0px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+#box #txt {
+    width: 400px;
+    height: 70px;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-indent: 24px;
+    line-height: 40px;
+}
+
 #bodyer #bg {
     width: calc(100% - 644px);
     height: 100%;
