@@ -1,0 +1,107 @@
+header {
+    width: 1920px;
+    height: 60px;
+    background-color: #e1f1f2;
+    box-shadow: 0px 0px 5px 2px #ddd;
+}
+
+#bodyer {
+    width: 1920px;
+    height: calc(100% - 60px);
+    display: flex;
+    flex-direction: row;
+}
+
+#bg {
+    width: calc(100% - 644px);
+    height: 100%;
+}
+
+#panel {
+    width: 644px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#panel>* {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#panel .icon {
+    justify-content: end;
+    height: 170px;
+}
+
+.title {
+    height: 142px;
+    font-size: 27px;
+    line-height: 42px;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: right;
+    width: 390px;
+    padding-bottom: 30px;
+    color: #1aa4b4;
+    font-size: 18px;
+}
+
+.input {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    text-indent: 25px;
+    font-size: 20px;
+    border: 2px solid #69c0d6;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #69c6d6;
+    background-color: #69c6d6;
+    color: #fff;
+}
+
+#change {
+    background: #fff;
+    border: none;
+    color: #1aa4b4;
+    font-size: 16px;
+}
+
+.skip {
+    background: #fff;
+    border: none;
+    color: #aaa;
+    font-size: 18px;
+}
+
+#getNum {
+    margin-left: 20px;
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+select {
+    outline: none;
+}
+
+.mark {
+    position: absolute;
+    margin-right: -20px;
+    font-size: 16px;
+    line-height: 50px;
+}
