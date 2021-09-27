@@ -6,10 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/initialize.css">
+    <link rel="stylesheet" href="css/index_Phone.css" media="screen and (max-width: 960px)">
+    <link rel="stylesheet" href="css/index_PC.css" media="screen and (min-width: 960px)">
 </head>
 
 <body>
-    <p>hello world</p>
+    <div id="template">
+        <div id="head-wrap">
+            <div id="head">
+
+            </div>
+        </div>
+    </div>
 </body>
+<script src="http://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+    new Vue({
+        el: '#template',
+        data: {
+            welcome: "hello world"
+        }
+    })
+</script>
 
 </html>
