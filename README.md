@@ -187,7 +187,6 @@ https: //devolopcode.github.io
 - SSH
   
   ```bash
-  git config --global https.proxy #查看 git 代理配置
   git config --global -l #查看 git 的所有配置
   ssh-keygen -t rsa -C "address@example.com" #生成 SSH
   ```
