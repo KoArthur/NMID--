@@ -197,7 +197,6 @@ https: //devolopcode.github.io
   ```bash
   git config --global -l #查看 git 的所有配置
   ssh-keygen -t rsa -C "address@example.com" #生成 SSH
-  # gitgui只能能指定默认id_rsa公钥
   ```
   
   config文件配置
@@ -242,6 +241,16 @@ https: //devolopcode.github.io
   ```
   
   这些文件默认都放在`c:\users\user\[user]`，可以通过 Linux 命令 vim 打开
+
+- Error
+  
+  ```bash
+  # 错误1
+  fatal: unable to access 'https://github.com/KoArthur/NMID--.git/': OpenSSL SSL_read: Connection was
+  aborted, errno 10053
+  # 更改限制大小
+  git config --global http.postBuffer 524288000
+  ```
 
 ### markdown 指令 🍉
 
