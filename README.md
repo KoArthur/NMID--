@@ -204,6 +204,18 @@ https: //devolopcode.github.io
   git config --global -l #查看 git 的所有配置
   ssh-keygen -t rsa -C "address@example.com" #生成 SSH
   ```
+
+- 默认行为
+  
+  * noting：无默认，操作，需要显示指定
+  
+  * current：push当前分支同名分支，没有则创建
+  
+  * upstream：push到他的upstream分支上
+  
+  * simple：与upstream类似，必须与upstream同名
+  
+  * matching：push所有本地与远程两端都存在同名的分支
   
   config文件配置
   
