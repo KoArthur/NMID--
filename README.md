@@ -40,14 +40,6 @@ https: //devolopcode.github.io
   git push -u origin [branch]
   ```
 
-- SSL 问题解决办法
-  
-  ```bash
-  git config --global https.proxy
-  # or
-  git config --global --unset https.proxy
-  ```
-
 ### 常用 git 指令 🍉
 
 - 新建代码库
@@ -60,11 +52,27 @@ https: //devolopcode.github.io
 
 - 配置
   
+  1. 仓库级别 local 优先级最高 目录在当前仓库的 .git/config
+  
+  2. 用户级别 global 优先级次级 目录在~/.gitconfig
+  
+  3. 系统级别 system 优先级最低 目录在git安装目录下etc/.gitconfig
+  
   ```bash
-  git config --list #显示当前的 Git 配置
-  git config -e --global #编辑 Git 配置文件
-  git config --global user.name "[user]"
-  git config --global user.email "[address@example.com]" #设置提交代码时的用户信息
+  # 不加type默认为local
+  git config [--type] [--list|-l] #显示当前的 Git 配置
+  git config [--type] [--edit|-e] #编辑 Git 配置文件
+  git config [--type] --add section.key value #增加配置项，会重复添加
+  git config [--type] --get section.key #查看最新的指定配置项，不存在会报错
+  git config [--type] --get-all section.key #指定配置项的全部值
+  git config [--type] --get-regexp regexp #正则匹配
+  git config [--type] --unset section.key #删除指定配置项，不存在会报错
+  git config [--type] --unset-all section.key #删除匹配的所有配置项
+  git config [--type] section.key #添加或设置一个，如有多个必须用add或replace-all
+  git config [--type] --replace-all section.key #合并重复的配置项并设置
+  git config [--type] --rename-section oldname newname
+  git config [--type] --remove-section name
+  # 常用配置项目 user.name user.email
   ```
 
 - 添加/删除文件
@@ -189,7 +197,39 @@ https: //devolopcode.github.io
   ```bash
   git config --global -l #查看 git 的所有配置
   ssh-keygen -t rsa -C "address@example.com" #生成 SSH
+  # gitgui只能能指定默认id_rsa公钥
   ```
+  
+  config文件配置
+  
+  ```
+  # 添加config配置文件
+  
+  # 文件内容如下：
+  #github
+  Host test
+      HostName github.com
+      PreferredAuthentications publickey
+      IdentityFile ~/.ssh/test_rsa
+      User test
+  
+  # 配置文件参数
+  # Host : Host可以看作是一个你要识别的模式，对识别的模式，进行配置对应的的主机名和ssh文件 如 ssh tencent连接远程终端
+  # HostName : 要登录主机的主机名
+  # User : 登录名
+  # IdentityFile : 指明上面User对应的identityFile路径
+  # Port 端口号，默认是22端口
+  ```
+  
+  验证和连接
+  
+  ```bash
+  ssh -T git@Host
+  git@github.com:用户名/项目名.git #单个公钥
+  git@Host:用户名/项目名.git #多个公钥
+  ```
+  
+  
 
 - 与 git 相关的文件
   
@@ -334,8 +374,8 @@ https: //devolopcode.github.io
   ```语言（可以不加）
   不同语言会显示不同颜色
   ```
-  ```
   
+  ```
   ```javascript
   console.log("hello world");
   ```
