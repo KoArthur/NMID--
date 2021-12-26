@@ -20,7 +20,7 @@ https: //devolopcode.github.io
   git config --global user.email "[address@example.com]"
   ```
 
-- 在本地创建一个仓库和分支并远程同步
+- 新手教程
   
   ```bash
   git init
@@ -29,7 +29,7 @@ https: //devolopcode.github.io
   git commit -m "信息"
   git branch -M [branch]
   git remote add origin https://github.com/[repository]/.git
-  git push -u origin [branch]
+  git push -u origin [branch] #push会自动创建一个分支并建立追踪关系
   ```
 
 - 上传项目
@@ -114,7 +114,7 @@ https: //devolopcode.github.io
   git branch --set-upstream [branch] [remote-branch] #建立追踪关系，在现有分支与指定的远程分支之间
   git merge [branch] #合并指定分支到当前分支
   git cherry-pick [commit] #选择一个 commit，合并进当前分支
-  git branch -d [branch-name] #删除分支
+  git branch -delete [branch-name] #删除分支
   git push --delete origin [branch] #删除远程分支
   git push --set-upstream origin [branch]
   git push -u origin [branch] #上传本地分支并设置分支关联关系
@@ -163,13 +163,19 @@ https: //devolopcode.github.io
   git remote -v #显示所有远程仓库
   git remote show [remote] #显示某个远程仓库的信息
   git remote add [shortname] [url] #增加一个新的远程仓库，并命名
-  git pull [remote] [branch] #取回远程仓库的变化，并与本地分支合并
-  git push [remote] [branch] #上传本地指定分支到远程仓库
-  git push [remote] --force #强行推送当前分支到远程仓库，即使有冲突
-  git push [remote] --all #推送所有分支到远程仓库
-  git pull origin [branch] #同步远程仓库到本地，等于 git fetch+git merge
-  git fetch origin [branch] #从远程仓库获取最新
-  git merge origin [branch] #进行合并
+  git push...#同步本地分支到远程
+  git pull...#同步远程仓库到本地，等于 git fetch+git merge
+  git fetch...#从远程仓库获取最新
+  git merge...#进行合并
+  git push|pull 远程主机名 本地分支名:远程分支名
+  git push|pull origin [branch]:[remote] #上传本地指定分支到远程仓库
+  git push|pull origin [branch] #未指定则表示存在追踪关系(同名)
+  # 以上当前分支与远程分支没存在追踪关系，就是谁也不是谁的upstream/downstream
+  git push|pull -u origin [branch] #指定一个默认，以后可以只用git push|pull
+  git push|pull # 只有一个追踪都可以省略
+  git push|pull --force... #强行推送或拉取
+  git push|pull --all origin
+  git push origin :[remote] #等同于 git push --delete origin [remote]
   ```
 
 - 撤销
@@ -227,8 +233,6 @@ https: //devolopcode.github.io
   git@github.com:用户名/项目名.git #单个公钥
   git@Host:用户名/项目名.git #多个公钥
   ```
-  
-  
 
 - 与 git 相关的文件
   
